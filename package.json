@@ -1,8 +1,8 @@
 {
   "name": "api-creation",
-  "version": "1.0.0",
+  "version": "0.1.1",
   "description": "assignment to begin learning how to create and use APIs",
-  "main": "index.js",
+  "main": "server.js",
   "scripts": {
     "test": "node server.js --port=5555"
   },
