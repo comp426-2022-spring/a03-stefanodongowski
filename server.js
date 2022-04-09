@@ -28,6 +28,11 @@ app.get('/app/flips/:number', (req, res) => {
                            "summary" : countFlips(flips)})
 })
 
+app.get('/app/flip/call/:call', (req, res) => {
+    var flip = flipACoin(req.params.call)
+    res.status(200).json(flip)
+})
+
 app.use(function(req, res) {
     res.status(404).send("Endpoint does not exist")
     res.type("text/plain")
