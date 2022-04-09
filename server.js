@@ -3,7 +3,9 @@ const { application } = require('express')
 const express = require('express')
 const app = express()
 
-var port = 3000
+const args = require('minimist')(process.argv.slice(2))
+args['port']
+const port = args.port || process.env.PORT || 3000
 
 app.get('/', (req, res) => {
 
