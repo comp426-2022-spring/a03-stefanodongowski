@@ -1,0 +1,23 @@
+{
+  "name": "api-creation",
+  "version": "1.0.0",
+  "description": "assignment to begin learning how to create and use APIs",
+  "main": "index.js",
+  "scripts": {
+    "test": "node server.js --port=5555"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/comp426-2022-spring/a03-stefanodongowski.git"
+  },
+  "author": "Stefano Dongowski",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/comp426-2022-spring/a03-stefanodongowski/issues"
+  },
+  "homepage": "https://github.com/comp426-2022-spring/a03-stefanodongowski#readme",
+  "dependencies": {
+    "express": "^4.17.3",
+    "yargs": "^17.4.0"
+  }
+}
